@@ -1,0 +1,26 @@
+{
+    "sourceFile": "components/Hero.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1770281467100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1770281492184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         <div className=\"max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center\">\r\n             <h2 className=\"uppercase tracking-widest text-xs text-center text-blue-100 max-x-80\">Zaky Portfolio Dinamic Text</h2>\r\n             <TextGenerateEffect \r\n             className=\"text-center text-[40px] md:text-5xl lg:text-6xl\"\r\n-            words=\"Make Your Website Dream Into Reality\"\r\n+            words=\"Make Your Application Dream Into Reality\"\r\n             />\r\n \r\n             <p className=\"text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl\">\r\n                 Hi, we're Nexa, Network Engineering X-technology Applications\r\n"
+                },
+                {
+                    "date": 1770281502534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         <div className=\"max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center\">\r\n             <h2 className=\"uppercase tracking-widest text-xs text-center text-blue-100 max-x-80\">Zaky Portfolio Dinamic Text</h2>\r\n             <TextGenerateEffect \r\n             className=\"text-center text-[40px] md:text-5xl lg:text-6xl\"\r\n-            words=\"Make Your Application Dream Into Reality\"\r\n+            words=\"Make Your Website Dream Into Reality\"\r\n             />\r\n \r\n             <p className=\"text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl\">\r\n                 Hi, we're Nexa, Network Engineering X-technology Applications\r\n"
+                }
+            ],
+            "date": 1770281467100,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport { Spotlight } from \"./ui/Spotlight\";\r\nimport { TextGenerateEffect } from \"./ui/textGenerateEffect\";\r\nimport MagicButton from \"./ui/MagicButton\";\r\nimport { FaLocationArrow } from \"react-icons/fa6\";\r\n\r\nconst Hero = () => {\r\n  return (\r\n    <div className=\"pb-20 pt-36\">\r\n      <div>\r\n        <Spotlight\r\n          className=\"-top-40 -left-10 md:-left-32 md:-top-20 h-screen\"\r\n          fill=\"white\"\r\n        />\r\n        <Spotlight\r\n          className=\"top-10 left-full h-[80vh] w-[50vw]\"\r\n          fill=\"purple\"\r\n        />\r\n        <Spotlight className=\"top-28 left-80 h-[80vh] w-[50vw]\" fill=\"white\" />\r\n      </div>\r\n\r\n      <div className=\"h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 lefy-0\">\r\n        {/* Radial gradient for the container to give a faded look */}\r\n        <div className=\"absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]\" />\r\n      </div>\r\n\r\n      <div className=\"flex justify-center relative my-20 z-10\">\r\n        <div className=\"max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center\">\r\n            <h2 className=\"uppercase tracking-widest text-xs text-center text-blue-100 max-x-80\">Zaky Portfolio Dinamic Text</h2>\r\n            <TextGenerateEffect \r\n            className=\"text-center text-[40px] md:text-5xl lg:text-6xl\"\r\n            words=\"Make Your Website Dream Into Reality\"\r\n            />\r\n\r\n            <p className=\"text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl\">\r\n                Hi, we're Nexa, Network Engineering X-technology Applications\r\n            </p>\r\n            <a href=\"#about\">\r\n                <MagicButton \r\n                title=\"show my work\"\r\n                icon={<FaLocationArrow />}\r\n                position=\"right\"\r\n                />\r\n            </a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Hero;\r\n"
+        }
+    ]
+}

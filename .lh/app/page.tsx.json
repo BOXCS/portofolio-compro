@@ -1,0 +1,18 @@
+{
+    "sourceFile": "app/page.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1770277801853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1770277801853,
+            "name": "Commit-0",
+            "content": "import Clients from \"@/components/Clients\";\nimport Grid from \"@/components/Grid\";\nimport Hero from \"@/components/Hero\";\nimport RecentProjects from \"@/components/RecentProjects\";\nimport { FloatingNav } from \"@/components/ui/FloatingNav\";\nimport { navItems } from \"@/data\";\nimport Image from \"next/image\";\nimport { FaHome } from \"react-icons/fa\";\n\nexport default function Home() {\n  return (\n    <main className=\"relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5\">\n      <div className=\"max-x-7xl w-full\">\n        <FloatingNav navItems={navItems}/>\n        <Hero />\n        <Grid />\n        <RecentProjects />\n        <Clients />\n      </div>\n    </main>\n  );\n}\n"
+        }
+    ]
+}
