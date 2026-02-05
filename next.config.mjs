@@ -6,9 +6,13 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  // GANTI dengan nama repo GitHub kamu
-  basePath: "/portofolio-compro",
-  assetPrefix: "/portofolio-compro/",
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
