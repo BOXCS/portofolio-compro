@@ -1,9 +1,14 @@
-// next.config.mjs
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    /* config options here */
-  };
-  
-  export default nextConfig;
-  
+  output: "export",
+
+  images: {
+    unoptimized: true,
+  },
+
+  // GANTI dengan nama repo GitHub kamu
+  basePath: "/portofolio-compro",
+  assetPrefix: "/portofolio-compro/",
+};
+
+export default nextConfig;

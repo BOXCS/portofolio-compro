@@ -1,0 +1,22 @@
+{
+    "sourceFile": "next.config.mjs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1770331991621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1770332016253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     unoptimized: true,\r\n   },\r\n \r\n   // GANTI dengan nama repo GitHub kamu\r\n-  basePath: \"/nama-repo\",\r\n-  assetPrefix: \"/nama-repo/\",\r\n+  basePath: \"/portofolio-compro\",\r\n+  assetPrefix: \"/portofolio-compro/\",\r\n };\r\n \r\n export default nextConfig;\r\n"
+                }
+            ],
+            "date": 1770331991621,
+            "name": "Commit-0",
+            "content": "/** @type {import('next').NextConfig} */\r\nconst nextConfig = {\r\n  output: \"export\",\r\n\r\n  images: {\r\n    unoptimized: true,\r\n  },\r\n\r\n  // GANTI dengan nama repo GitHub kamu\r\n  basePath: \"/nama-repo\",\r\n  assetPrefix: \"/nama-repo/\",\r\n};\r\n\r\nexport default nextConfig;\r\n"
+        }
+    ]
+}
