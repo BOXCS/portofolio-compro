@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 24,
+            "activePatchIndex": 25,
             "patches": [
                 {
                     "date": 1770277450138,
@@ -104,6 +104,10 @@
                 {
                     "date": 1770281766219,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,17 +30,10 @@\n             <React.Fragment key={company.id}>\r\n               <div className=\"flex md:max-w-60 max-w-32 gap-2\">\r\n                 <img\r\n                   src={company.img}\r\n-                  alt={company.name}\r\n                   className=\"md:w-32 w-5\"\r\n                 />\r\n-                <img\r\n-                  src={company.nameImg}\r\n-                  alt={company.name}\r\n-                  width={company.id === 4 || company.id === 5 ? 100 : 150}\r\n-                  className=\"md:w-24 w-20\"\r\n-                />\r\n               </div>\r\n             </React.Fragment>\r\n           ))}\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1770355807671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n import React from \"react\";\r\n \r\n import { companies, testimonials } from \"@/data\";\r\n import { InfiniteMovingCards } from \"./ui/InfiniteMovingCards\";\r\n+import Image from \"next/image\";\r\n \r\n const Clients = () => {\r\n   return (\r\n     <section id=\"testimonials\" className=\"py-20\">\r\n@@ -28,10 +29,13 @@\n         <div className=\"flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10\">\r\n           {companies.map((company) => (\r\n             <React.Fragment key={company.id}>\r\n               <div className=\"flex md:max-w-60 max-w-32 gap-2\">\r\n-                <img\r\n+                <Image\r\n                   src={company.img}\r\n+                  alt=\"partner logo\"\r\n+                  width={128}\r\n+                  height={128}\r\n                   className=\"md:w-32 w-5\"\r\n                 />\r\n               </div>\r\n             </React.Fragment>\r\n"
                 }
             ],
             "date": 1770277450138,

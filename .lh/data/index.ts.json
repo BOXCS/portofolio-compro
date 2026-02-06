@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 27,
             "patches": [
                 {
                     "date": 1770280402610,
@@ -100,6 +100,22 @@
                 {
                     "date": 1770283007973,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,9 +97,9 @@\n     {\r\n       id: 4,\r\n       title: \"SI-ITIK\",\r\n       des: \"A Analytics Application For Duck Farmer to Maintain their Farm on Website & Mobile.\",\r\n-      img: \"/p4.svg\",\r\n+      img: \"/sanmore.png\",\r\n       iconLists: [\"/next.svg\", \"/tail.svg\", \"/ts.svg\", \"/three.svg\", \"/gsap.svg\"],\r\n       link: \"https://github.com/BOXCS/si-itik-revision\",\r\n     },\r\n   ];\r\n"
+                },
+                {
+                    "date": 1770355864508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -140,9 +140,9 @@\n   export const companies = [\r\n     {\r\n       id: 1,\r\n       // name: \"cloudinary\",\r\n-      img: \"/research-logo-green.svg\",\r\n+      img: \"portofolio-compro/research-logo-green.svg\",\r\n       // nameImg: \"/cloudName.svg\",\r\n     },\r\n     {\r\n       id: 2,\r\n"
+                },
+                {
+                    "date": 1770355887026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,21 +146,21 @@\n     },\r\n     {\r\n       id: 2,\r\n       // name: \"appwrite\",\r\n-      img: \"/miftahul.png\",\r\n+      img: \"portofolio-compro/miftahul.png\",\r\n       // nameImg: \"/appName.svg\",\r\n     },\r\n     {\r\n       id: 3,\r\n       // name: \"HOSTINGER\",\r\n-      img: \"/RAOS LOGO.png\",\r\n+      img: \"portofolio-compro/RAOS LOGO.png\",\r\n       // nameImg: \"/hostName.svg\",\r\n     },\r\n     {\r\n       id: 4,\r\n       // name: \"stream\",\r\n-      img: \"/logo-arjasa.svg\",\r\n+      img: \"portofolio-compro/logo-arjasa.svg\",\r\n       // nameImg: \"/streamName.svg\",\r\n     },\r\n   ];\r\n   \r\n"
+                },
+                {
+                    "date": 1770355921809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,33 +73,33 @@\n     {\r\n       id: 1,\r\n       title: \"Organization Portfolio\",\r\n       des: \"Explore the profile of our research partner\",\r\n-      img: \"/research.png\",\r\n+      img: \"portofolio-compro/research.png\",\r\n       iconLists: [\"/php.svg\", \"/tail.svg\", \"/ts.svg\", \"/three.svg\", \"/fm.svg\"],\r\n       link: \"https://research-ai.my.id/\",\r\n     },\r\n     {\r\n       id: 2,\r\n       title: \"Arjasa Web Landing Page\",\r\n       des: \"Simplify your order for design purposes. Seamlessly connect with editor.\",\r\n-      img: \"/hyang.png\",\r\n+      img: \"portofolio-compro/hyang.png\",\r\n       iconLists: [\"/php.svg\", \"/tail.svg\", \"/ts.svg\", \"/stream.svg\", \"/c.svg\"],\r\n       link: \"https://desawisataarjasa.id/\",\r\n     },\r\n     {\r\n       id: 3,\r\n       title: \"E-Candling\",\r\n       des: \"A Educational game to train child brain with puzzle.\",\r\n-      img: \"/ecand.png\",\r\n+      img: \"portofolio-compro/ecand.png\",\r\n       iconLists: [\"/re.svg\", \"/tail.svg\", \"/ts.svg\", \"/three.svg\", \"/c.svg\"],\r\n       link: \"https://pameran-jti.polije.ac.id/product/483/e-candling-deteksi-embrio-telur-berbasis-iot-ai\",\r\n     },\r\n     {\r\n       id: 4,\r\n       title: \"SI-ITIK\",\r\n       des: \"A Analytics Application For Duck Farmer to Maintain their Farm on Website & Mobile.\",\r\n-      img: \"/sanmore.png\",\r\n+      img: \"portofolio-compro/sanmore.png\",\r\n       iconLists: [\"/next.svg\", \"/tail.svg\", \"/ts.svg\", \"/three.svg\", \"/gsap.svg\"],\r\n       link: \"https://github.com/BOXCS/si-itik-revision\",\r\n     },\r\n   ];\r\n"
+                },
+                {
+                    "date": 1770356768692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       description: \"\",\r\n       className: \"lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]\",\r\n       imgClassName: \"w-full h-full\",\r\n       titleClassName: \"justify-end\",\r\n-      img: \"/b1.svg\",\r\n+      img: \"portofolio-compro/b1.svg\",\r\n       spareImg: \"\",\r\n     },\r\n     {\r\n       id: 2,\r\n@@ -42,9 +42,9 @@\n       description: \"\",\r\n       className: \"lg:col-span-2 md:col-span-3 md:row-span-1\",\r\n       imgClassName: \"\",\r\n       titleClassName: \"justify-start\",\r\n-      img: \"/grid.svg\",\r\n+      img: \"portofolio-compro/grid.svg\",\r\n       spareImg: \"/b4.svg\",\r\n     },\r\n   \r\n     {\r\n@@ -53,9 +53,9 @@\n       description: \"The Inside Scoop\",\r\n       className: \"md:col-span-3 md:row-span-2\",\r\n       imgClassName: \"absolute right-0 bottom-0 md:w-96 w-60\",\r\n       titleClassName: \"justify-center md:justify-start lg:justify-center\",\r\n-      img: \"/b5.svg\",\r\n+      img: \"portofolio-compro/b5.svg\",\r\n       spareImg: \"/grid.svg\",\r\n     },\r\n     {\r\n       id: 6,\r\n"
                 }
             ],
             "date": 1770280402610,
